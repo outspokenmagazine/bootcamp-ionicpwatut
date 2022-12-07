@@ -9,9 +9,12 @@ import { Share } from '@capacitor/share';
   styleUrls: ['home.page.scss'],
 })
 export class HomePage {
+  //myImage!: string;
+  //myImage: null;
+  //myImage: string = "";
+  myImage!: string | undefined;
+  //myImage!: string;
 
-  myImage: string | undefined = "";
-  // position: Position = "2,2";
   position: any;
 
   constructor() {}
